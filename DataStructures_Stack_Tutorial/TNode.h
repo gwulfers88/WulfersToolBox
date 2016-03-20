@@ -62,7 +62,7 @@ public:
 	//sets new data
 	void SetData(T _newData)
 	{
-		if (iData != NULL)
+		if (_newData != NULL)
 		{
 			this->iData = _newData;
 		}

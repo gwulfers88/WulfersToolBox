@@ -1,0 +1,26 @@
+#include "player.h"
+
+printStr(char* str)
+{
+	while(*str)
+	{
+		cout << *str++;
+	
+}
+
+int main()
+{
+	int i = 0;
+
+	if(i > 0)
+	{
+		printStr("Hello world");
+	}
+	else
+	{
+		//Do something else.
+	
+	}
+
+	return 0;
+}
